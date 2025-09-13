@@ -5,7 +5,6 @@ Console-based To-Do List Manager
 import os
 from typing import List
 
-# File to store tasks
 TODO_FILE: str = "todo.txt"
 
 
@@ -106,4 +105,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+
     main()
